@@ -43,7 +43,7 @@ const App = () => {
           mrclocktd@gmail.com
         </a>
       </header>
-      <main className="flex flex-col  sm:overflow-auto ">
+      <main className="flex flex-col  sm:overflow-auto p space-y-[20px]">
         {loading ? <Loader /> : ""}
         {projects
           ? projects.map((project, index) => (
