@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Oswald", sans-serif;
+}
+h1 {
+  @apply text-[36px] font-normal leading-[40px] capitalize;
+}
+h2 {
+  @apply text-[20px] font-normal leading-[28px] capitalize;
+}
+p {
+  @apply text-[20px] font-light leading-[28px];
+}
+a {
+  @apply hover:underline w-max max-w-full text-[20px];
+}
+.p {
+  @apply p-[16px] md:p-[36px];
+}
+.h a {
+  @apply text-[12px] leading-[16px];
 }
