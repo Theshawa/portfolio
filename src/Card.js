@@ -9,7 +9,7 @@ const Card = ({ image, title, url }) => {
       rel="noreferrer"
       onMouseEnter={() => setActive(true)}
       onMouseLeave={() => setActive(false)}
-      className="overflow-hidden flex-shrink-0 cursor-pointer border-[2px] hover:scale-[1.01] border-fg shadow-sm bg-fg relative max-h-screen bg-cover bg-no-repeat bg-center"
+      className="overflow-hidden flex-shrink-0 cursor-pointer border-[1px] hover:scale-[1.01] border-[#00000025] shadow-sm bg-[#00000005] relative max-h-screen bg-cover bg-no-repeat bg-center"
     >
       <img src={image} alt="" className={`w-full h-auto `} />
       {active && (

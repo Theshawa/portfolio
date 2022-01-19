@@ -22,7 +22,7 @@ const App = () => {
     })();
   }, []);
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 max-w-[860px] mx-auto w-full text-fg  bg-bg  sm:h-screen">
+    <div className="grid grid-cols-1 sm:grid-cols-2 max-w-[860px] mx-auto w-full text-fg  bg-[#00000005]  sm:h-screen">
       <header className="w-full max-w-[380px] flex flex-col  px-[16px] sm:px-[36px] sm:py-[36px] py-[48px]">
         <h1>Theshawa Dasun</h1>
         <h2 className="mt-[13px]">A web developer</h2>
