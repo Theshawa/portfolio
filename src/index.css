@@ -24,3 +24,10 @@ a {
 .h a {
   @apply text-[12px] leading-[16px];
 }
+*::-webkit-scrollbar {
+  background-color: #00000005;
+  width: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #00000012;
+}
